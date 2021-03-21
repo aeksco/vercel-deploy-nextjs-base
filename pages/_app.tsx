@@ -4,7 +4,7 @@ import { Navbar } from "../src/components/Navbar";
 import { AppProps } from "next/app";
 
 // @ts-ignore
-import * as plugin from "../vercel-deploy-nextjs-plugin/dist/plugin.json";
+import * as plugin from "../plugin/dist/plugin.json";
 
 export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
