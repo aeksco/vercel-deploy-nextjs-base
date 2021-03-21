@@ -1,4 +1,4 @@
 git clone https://github.com/aeksco/vercel-deploy-nextjs-plugin.git
-# yarn --cwd ~/test_project/ install
-# yarn --cwd ~/test_project/ build
+yarn --cwd ./vercel-deploy-nextjs-plugin install
+yarn --cwd ./vercel-deploy-nextjs-plugin build
 yarn build
